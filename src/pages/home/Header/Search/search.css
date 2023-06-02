@@ -1,4 +1,25 @@
 .search {
   position: absolute;
-  bottom: -15px;
+  bottom: -35px;
+  border: 5px solid #ffd43b;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search input[type="text"] {
+  outline: none;
+  border: none;
+}
+
+.search input::placeholder {
+  color: #ced4da;
+}
+.search i {
+  color: #ced4da;
+  margin-right: 15px;
+}
+.search i:last-child {
+  margin: 0;
 }

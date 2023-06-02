@@ -1,0 +1,10 @@
+.category {
+  width: 100%;
+
+  flex-basis: 20% !important;
+}
+.category__item--img img {
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
