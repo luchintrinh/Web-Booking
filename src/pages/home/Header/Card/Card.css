@@ -1,0 +1,10 @@
+.header {
+  background-color: var(--color-background-header);
+  color: #fff;
+}
+
+.header .header__button {
+  background-color: #228be6;
+  color: #fff;
+  border: none;
+}

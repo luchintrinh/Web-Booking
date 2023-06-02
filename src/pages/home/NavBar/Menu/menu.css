@@ -1,0 +1,16 @@
+.width-50 {
+  width: 50%;
+}
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.active {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
