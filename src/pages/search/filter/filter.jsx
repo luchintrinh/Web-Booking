@@ -1,8 +1,8 @@
 import "./filter.css";
 const Filter = () => {
   return (
-    <div className="filter bg-warning p-2 rounded-3">
-      <h2 className="filter__title mb-3">Search</h2>
+    <div className="filter bg-warning px-2 py-3 rounded-3">
+      <h2 className="filter__title mb-3 fs-3">Search</h2>
       <form className="filter__form">
         <label htmlFor="des" className="w-100 info">
           <span className="py-2 ">Destination</span>
@@ -16,7 +16,7 @@ const Filter = () => {
           <input type="text" id="date" className="w-100" />
         </label>
         <div className="options">
-          <h2 className="options__title">Options</h2>
+          <h2 className="options__title fs-5">Options</h2>
           <table className="mx-auto">
             <tbody>
               <tr>

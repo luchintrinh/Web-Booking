@@ -1,5 +1,5 @@
 import "./search.css";
-const Search = () => {
+const SearchContainer = () => {
   const searchClickHandler = () => {
     window.location.replace("/search");
   };
@@ -39,4 +39,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default SearchContainer;

@@ -3,9 +3,12 @@
 }
 input {
   outline: none;
+  border: none;
 }
 .filter {
-  flex-basis: 25%;
+  /* flex-basis: 25%; */
+  width: 25%;
+  float: left;
 }
 table {
   width: 90%;

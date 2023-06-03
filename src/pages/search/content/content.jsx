@@ -40,7 +40,7 @@ const ContentSearch = () => {
     },
   ];
   return (
-    <div className="content">
+    <div className="content-search">
       {searchArr.map((el, index) => {
         return <ContentItem key={index} item={el}></ContentItem>;
       })}

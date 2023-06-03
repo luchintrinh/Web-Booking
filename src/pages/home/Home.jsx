@@ -7,6 +7,7 @@ import Search from "./Header/Search/search";
 import Content from "./content/content";
 import Register from "./content/register/resgiter";
 import Footer from "./footer/footer";
+import SearchContainer from "./Header/Search/search";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
           </div>
           <div className="header">
             <Card></Card>
-            <Search></Search>
+            <SearchContainer></SearchContainer>
           </div>
         </div>
       </div>
