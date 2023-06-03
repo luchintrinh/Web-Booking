@@ -1,7 +1,7 @@
 import "./search.css";
 const Search = () => {
   const searchClickHandler = () => {
-    window.location.replace("../../../search/Search.jsx");
+    window.location.replace("/search");
   };
   return (
     <div className="search bg-white container py-1">

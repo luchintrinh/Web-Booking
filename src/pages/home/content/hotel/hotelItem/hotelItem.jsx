@@ -7,7 +7,7 @@ const HotelItem = (props) => {
       </div>
       <div className="hotel__information">
         <a href="#">
-          <h4 className="hotel__information--name fs-4">{props.name}</h4>
+          <h4 className="hotel__information--name fs-5">{props.name}</h4>
         </a>
         <p className="hotel__information--city fs-5">{props.city}</p>
         <p className="hotel__information--price fs-5 fw-bold">{`Starting from $${props.price}`}</p>

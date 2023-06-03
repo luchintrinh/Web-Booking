@@ -5,6 +5,8 @@ import Card from "./Header/Card/Card";
 import "../../index.css";
 import Search from "./Header/Search/search";
 import Content from "./content/content";
+import Register from "./content/register/resgiter";
+import Footer from "./footer/footer";
 
 const Home = () => {
   return (
@@ -23,6 +25,10 @@ const Home = () => {
       </div>
       <div className="content">
         <Content></Content>
+      </div>
+      <Register></Register>
+      <div className="footer">
+        <Footer></Footer>
       </div>
     </div>
   );
