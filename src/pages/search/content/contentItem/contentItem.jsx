@@ -1,7 +1,6 @@
 import "./contentItem.css";
 const ContentItem = (props) => {
   const { item } = props;
-  console.log(item.rate_text);
   return (
     <div
       className="itemSearch border-2 d-flex p-3 align-items-start mb-3"

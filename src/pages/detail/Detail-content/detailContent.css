@@ -1,0 +1,13 @@
+.detail__images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.detail__footer--left {
+  flex-basis: 70%;
+}
+.detail__footer--right {
+  flex-basis: 30%;
+  background-color: #e3fafc;
+}

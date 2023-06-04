@@ -1,5 +1,4 @@
-import Brand from "./NavBar/Brand/brand";
-import Menu from "./NavBar/Menu/menu";
+import Navbar from "./NavBar/navbar";
 import "./Home.css";
 import Card from "./Header/Card/Card";
 import "../../index.css";
@@ -15,8 +14,7 @@ const Home = () => {
       <div className="navigation position-relative">
         <div className="container fs-3 text-white">
           <div className="mb-5">
-            <Brand></Brand>
-            <Menu></Menu>
+            <Navbar></Navbar>
           </div>
           <div className="header">
             <Card></Card>

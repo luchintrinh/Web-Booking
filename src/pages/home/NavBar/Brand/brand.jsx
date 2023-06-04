@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { Button } from "react-bootstrap";
-
 const Brand = () => {
   return (
     <div className="d-flex justify-content-between brand">

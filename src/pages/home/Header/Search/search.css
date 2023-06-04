@@ -7,6 +7,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.search__date {
+  position: relative;
+}
+.date-range {
+  position: absolute;
+  z-index: 100;
+  bottom: -381px;
+}
 
 .search input[type="text"] {
   outline: none;
