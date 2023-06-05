@@ -1,10 +1,11 @@
-import Menu from "./Menu/menu";
+import NavBarItem from "./NavBarItem/NavBarItem";
 import Brand from "./Brand/brand";
+import menu from "./navBar.json";
 const Navbar = () => {
   return (
     <div>
       <Brand></Brand>
-      <Menu></Menu>
+      <NavBarItem data={menu}></NavBarItem>
     </div>
   );
 };

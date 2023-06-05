@@ -10,10 +10,11 @@
 .search__date {
   position: relative;
 }
+
 .date-range {
   position: absolute;
   z-index: 100;
-  bottom: -381px;
+  bottom: -350px;
 }
 
 .search input[type="text"] {

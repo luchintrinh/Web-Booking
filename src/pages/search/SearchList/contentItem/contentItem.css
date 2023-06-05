@@ -1,0 +1,27 @@
+.itemSearch__image img {
+  object-fit: cover;
+}
+
+.itemSearch {
+  height: 280px;
+  gap: 25px;
+}
+
+.itemSearch .item:first-child {
+  width: 30%;
+}
+.itemSearch .item {
+  width: 50%;
+}
+
+.itemSearch .item:last-child {
+  width: 20%;
+}
+.rate span {
+  background-color: #1864ab;
+}
+
+.room-type {
+  font-size: 14px;
+  color: #495057;
+}

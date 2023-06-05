@@ -1,0 +1,30 @@
+.options input[type="number"] {
+  width: 50px;
+}
+input {
+  outline: none;
+  border: none;
+}
+.filter {
+  width: 25%;
+  float: left;
+}
+.options span {
+  color: #495057;
+}
+
+.filter__title {
+  color: #495057;
+}
+table {
+  width: 90%;
+}
+td {
+  padding: 10px 0;
+}
+
+.info input {
+  height: 35px;
+  margin: 10px 0 10px 0;
+  outline: none;
+}

@@ -1,5 +1,5 @@
 import "./content.css";
-import City from "./city/city";
+import City from "./city/city.jsx";
 import HotelCategory from "./hotelCategory/hotelCategory";
 import Hotel from "./hotel/hotel";
 const Content = () => {

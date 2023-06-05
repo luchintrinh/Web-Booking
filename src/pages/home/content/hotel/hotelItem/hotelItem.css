@@ -1,6 +1,9 @@
+/* đặt cho ảnh rộng bằng 100% hộp chứa */
 .hotel__item--image {
   width: 100%;
 }
+
+/* đặt cho ảnh nằm gọn trong hộp chứa */
 .hotel__item--image img {
   object-fit: cover;
   width: 100%;

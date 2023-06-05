@@ -1,11 +1,11 @@
-import Navbar from "./NavBar/navbar";
+import Navbar from "./NavBar/navbar.jsx";
 import "./Home.css";
 import Card from "./Header/Card/Card";
 import "../../index.css";
 import Search from "./Header/Search/search";
 import Content from "./content/content";
-import Register from "./content/register/resgiter";
-import Footer from "./footer/footer";
+import Contact from "./content/contact/contact.jsx";
+import Footer from "./footer/footer.jsx";
 import SearchContainer from "./Header/Search/search";
 
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
       <div className="content">
         <Content></Content>
       </div>
-      <Register></Register>
+      <Contact></Contact>
       <div className="footer">
         <Footer></Footer>
       </div>
